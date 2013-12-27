@@ -8,6 +8,7 @@ To use it simply run it as root on your freenas box.
 Example:
 
 ./generate_ipfw.sh > fw.sh
+
 ./fw.sh
 
 Afterwards you can use "ipfw -q list" to verify the firewall.
